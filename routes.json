@@ -2,5 +2,6 @@
     "/api/*": "/$1",
     "/:resource/:id/show": "/:resource/:id",
     "/events/:category": "/events?category=:category",
-    "/events?id=:id": "/events/:id"
+    "/events?id=:id": "/events/:id",
+    "/events/:tags": "/events?tags=:tags"
 }
