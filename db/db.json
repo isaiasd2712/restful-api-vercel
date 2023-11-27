@@ -1,19 +1,432 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    "users":[
+        {   
+            "id": 1 ,
+            "mail": "manolo@gmail.com",
+            "password": "12345678"
+        }
+    ],
+    "events": [
+        {   "id": 1,
+            "name": "Fiesta de Risas y Bailes",
+            "tags": ["Emprendedores", "Conciencia Eco", "Equipo", "Gratis"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
+            "schedule": {
+                "day": "Sabado, 18 de Noviembre de 2023",
+                "time": "11:30"
+            },
+            "duration": "1:30 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": ""
         },
-        {
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+        {   "id": 2,
+            "name": "Las magias de Túnez",
+            "tags":["Circuito", "Grupo reducido", "Magia", "Gratis"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516002615/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Viernes, 8 de Diciembre de 2023",
+                "time": "20:00"
+            },
+            "duration": "3 horas",
+            "price": "GRATIS",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
         },
         {
             "id": 3,
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+            "name": "Aventuras Cómicas: Un Show de Stand-Up",
+            "tags":["Celebraciones", "Fiesta", "Familiar"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516869972/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 26 de Noviembre de 2023",
+                "time": "17:00"
+            },
+            "duration": "4 horas",
+            "price": "33,00 EUR",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id": 4,
+            "name": "Retro Fiesta: Viaje al Pasado Divertido",
+            "tags": ["Fiesta", "Retro", "Noche", "Gratis"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/228741072/222x125.webp?w=256"],
+            "schedule": {
+                "day": "Jueves, 16 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "2 horas",
+            "price": "GRATIS",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address":"ONLINE"
+        },
+        {   "id":5,
+            "name": "Carrera de Carritos Locos",
+            "tags": ["Aventura", "Concurso", "Competición", "Gratis"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/517184261/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Jueves, 30 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "3 horas",
+            "price": "GRATIS",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":6,
+            "name": "Festival de Burbujas y Risas",
+            "tags": ["Aprendizaje", "Ciencia", "Gratis"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514674724/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Miércoles, 15 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "2 horas",
+            "price": "GRATIS",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":7,
+            "name": "Noche de Juegos Absurdos",
+            "tags": ["Juegos", "Grupal", "Noche", "Gratis"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/512779185/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Viernes, 1 de Diciembre de 2023",
+                "time": "18:30"
+            },
+            "duration": "3 horas",
+            "price": "GRATIS",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id": 8,
+            "name": "Club de lectura-Cometierra, de Dolores Reyes",
+            "tags": ["Aprendizaje", "Grupal", "Lectura", "Noche"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/515694584/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Viernes, 24 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "1:30 horas",
+            "price": "4,00 EUR",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id": 9,
+            "name": "Explosión de Risas: Comedia en Vivo",
+            "tags": ["Espectáculo", "Comedia", "Noche", "Gratis"],
+            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514159693/272x153.webp?w=384"],
+            "schedule": {
+                "day": "Martes, 14 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "1 hora",
+            "price": "GRATIS",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":10,
+            "name": "Fiesta de Disfraces Ridículos",
+            "tags": ["Fiesta", "Disfraces", "Noche", "Gratis"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/c/f/0/a/event_490013002.webp?w=384"],
+            "schedule": {
+                "day": "Miércoles, 15 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "2 horas",
+            "price": "GRATIS",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":11,
+            "name": "Maratón de Películas Cómicas",
+            "tags": ["Tragos", "Noche", "Gratis", "Grupal"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/7/4/7/9/600_512909817.webp?w=384"],
+            "schedule": {
+                "day": "Martes, 14 de Noviembre de 2023",
+                "time": "18:30"
+            },
+            "duration": "2 horas",
+            "price": "GRATIS",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":12,
+            "name": "Desafío de Baile Ridículo",
+            "tags": ["Tragos", "Día", "Gratis", "Grupal"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/4/7/5/7/600_501198263.webp?w=384"],
+            "schedule": {
+                "day": "Martes, 14 de Noviembre de 2023",
+                "time": "19:30"
+            },
+            "duration": "3 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":13,
+            "name": "Karaoke del Caos",
+            "tags": ["Music", "Night"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/c/9/9/d/600_503391613.webp?w=384"],
+            "schedule": {
+                "day": "Martes, 14 de Noviembre de 2023",
+                "time": "20:00"
+            },
+            "duration": "2 horas",
+            "price": "5,00 EUR",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id": 14,
+            "name": "Fiesta de Pijamas a lo Grande",
+            "tags": ["Gastronomía", "Evento", "Gratis", "Noche"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/b/2/e/c/600_516105804.webp?w=384"],
+            "schedule": {
+                "day": "Martes, 14 de Noviembre de 2023",
+                "time": "20:00"
+            },
+            "duration": "1:15 horas",
+            "price": "GRATIS",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":15,
+            "name": "Caza del Tesoro Absurda",
+            "tags": ["Juego", "Gratis", "Día"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/b/b/9/4/600_514968020.webp?w=384"],
+            "schedule": {
+                "day": "Miércoles, 15 de Noviembre de 2023",
+                "time": "10:00"
+            },
+            "duration": "1 dia y 19 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":16,
+            "name": "Yoga dinámico",
+            "tags": ["Yoga", "Salud", "Bienestar"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/5/d/6/0/600_501623904.webp?w=384"],
+            "schedule": {
+                "day": "Miércoles, 15 de Noviembre de 2023",
+                "time": "10:00"
+            },
+            "duration": "1 hora",
+            "price": "12,00 EUR",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":17,
+            "name": "Hatha Yoga en Badalona",
+            "tags": ["Yoga", "Salud", "Bienestar"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/c/c/3/c/600_515512284.webp?w=384"],
+            "schedule": {
+                "day": "Jueves, 16 de Noviembre de 2023",
+                "time": "10:00"
+            },
+            "duration": "1:30 horas",
+            "price": "PAGO",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":18,
+            "name": "Concurso de Chistes Locos",
+            "tags": ["Comedia", "Concurso", "Social"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/5/b/6/4/600_514883396.webp?w=384"],
+            "schedule": {
+                "day": "Jueves, 16 de Noviembre de 2023",
+                "time": "18:30"
+            },
+            "duration": "2 horas",
+            "price": "PAGO",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":19,
+            "name": "Noche de Magia y Payasadas",
+            "tags": ["Social", "Grupal", "Noche"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/c/3/7/1/600_513110033.webp?w=384"],
+            "schedule": {
+                "day": "Jueves, 16 de Noviembre de 2023",
+                "time": "19:00"
+            },
+            "duration": "2 horas",
+            "price": "15 EUR",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":20,
+            "name": "Batalla de Globos de Agua",
+            "tags": ["Diversión", "Desarrollo", "Gratis", "Día"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/b/5/2/f/600_516286383.webp?w=384"],
+            "schedule": {
+                "day": "Jueves, 16 de Noviembre de 2023",
+                "time": "11:00"
+            },
+            "duration": "1 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":21,
+            "name": "Festival de Comida Exótica y Divertida",
+            "tags": ["Comida", "Degustación", "Noche"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/6/0/5/3/600_516024659.webp?w=384"],
+            "schedule": {
+                "day": "Sábado, 18 de Noviembre de 2023",
+                "time": "19:30"
+            },
+            "duration": "2 horas",
+            "price": "62 EUR",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":22,
+            "name": "Tour de Risa: Stand-Up en la Ciudad",
+            "tags": ["Comedia", "Pasear", "Bienestar", "Gratis", "Día"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/2/a/4/d/600_492850829.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "07:50"
+            },
+            "duration": "11:20 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":23,
+            "name": "Olimpiadas Ridículas: Competencias Absurdas",
+            "tags": ["Deporte", "Concurso", "Gratis", "Día"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/2/e/1/d/600_516491805.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "07:55"
+            },
+            "duration": "9:05 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":24,
+            "name": "Ruta a Caballo",
+            "tags": ["Ruta a Caballo", "Actividad Ecuestre", "Naturaleza", "Gratis"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/4/9/4/8/600_515598760.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "10:00"
+            },
+            "duration": "3 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":25,
+            "name": "Taller de Acroyoga en Familia",
+            "tags": ["Gratis", "Día", "Taller", "Familiar"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/6/8/e/1/600_492026849.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "11:00"
+            },
+            "duration": "1:15 horas",
+            "price": "GRATIS",
+            "category": "Day",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":26,
+            "name": "Desfile de Moda Absurda",
+            "tags": ["Moda", "40 EUR", "Barcelona"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/d/3/6/2/600_516474114.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "12:00"
+            },
+            "duration": "2 horas",
+            "price": "GRATIS",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":27,
+            "name": "Museo Marítimo",
+            "tags": ["Museo", "Aprendizaje", "Cultural"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/d/d/7/4/600_514556692.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "16:30"
+            },
+            "duration": "2 horas",
+            "price": "12 EUR",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":28,
+            "name": "Scrabble en família en el Casal de Alella",
+            "tags": ["Familiar", "Gratis", "Juegos"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/b/4/5/3/600_510346163.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "17:30"
+            },
+            "duration": "2 horas",
+            "price": "GRATIS",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":29,
+            "name": "Show de Malabares y Locuras",
+            "tags": ["Malabares", "Día"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/c/6/0/5/600_516290693.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "18:30"
+            },
+            "duration": "2 horas",
+            "price": "15 EUR",
+            "category": "Top Rated",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
+        },
+        {   "id":30,
+            "name": "Cena a la Luz de las Velas",
+            "tags": ["Cena", "Cocina", "Gastronomía", "Noche", "Gratis"],
+            "picture": ["https://secure.meetupstatic.com/photos/event/1/a/9/6/600_516906806.webp?w=384"],
+            "schedule": {
+                "day": "Domingo, 19 de Noviembre de 2023",
+                "time": "21:00"
+            },
+            "duration": "1:45 horas",
+            "price": "GRATIS",
+            "category": "Night",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "address": "ONLINE"
         }
     ]
 }
